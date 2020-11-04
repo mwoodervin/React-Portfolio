@@ -5,7 +5,7 @@ import heroImage from "../../assets/img/mark-tegethoff-lX-sxatAvqc-unsplash-1.jp
 function Hero() {
     return (
         <div>
-            <img src={heroImage} alt="hero image" className="hero-image"/>
+            <img src={heroImage} alt="Bass Harbor Light" className="hero-image"/>
                 <div className="hero-text">
                     <h1>Mary W. Ervin</h1>
                 </div>
