@@ -1,14 +1,14 @@
 import React from 'react';
 import './hero.css';
+import heroImage from "../../assets/img/mark-tegethoff-lX-sxatAvqc-unsplash-1.jpg";
 
 function Hero() {
     return (
         <div>
-            <div className="hero-image">
+            <img src={heroImage} alt="hero image" className="hero-image"/>
                 <div className="hero-text">
                     <h1>Mary W. Ervin</h1>
                 </div>
-            </div>
         </div>
     )
 }
