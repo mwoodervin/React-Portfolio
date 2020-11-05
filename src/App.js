@@ -1,17 +1,26 @@
 import React from 'react';
-// import { Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
-// import Header from './components/header/Header';
+import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import About from './pages/about/About';
+import Portfolio from './pages/Portfolio/Portfolio';
+
 
 function App() {
   return (
     <div>
-      <Hero/>
-      <Navbar/>
-      <Footer/>
+      <Router>
+        <Hero/>
+        {/* <Header /> */}
+        <Navbar/>
+        <Route exact path = {["/","/about"]} component = {About} />
+        <Route exact path = "/portfolio" component = {Portfolio} />
+        {/* <Route exact path = "/contact" component = {Contact} /> */}
+        <Footer/>
+      </Router>
     </div>
   )
 }
