@@ -7,11 +7,14 @@ export const Project = () => {
         <div>
             <div className="project-container"></div>
             {projDetails.map((data, key) => {
-                return(
-                    <div key = {key}>
-                        {data.title}
-                        {data.description}
-                        {data.appLink}
+                return (
+                    <div>
+                        <div key={key}>
+                            {data.title}
+                            {data.description}
+                            {data.appLink}
+                        </div>
+
                     </div>
                 );
             })}
