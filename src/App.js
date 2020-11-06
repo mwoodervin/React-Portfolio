@@ -6,7 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import About from './pages/about/About';
-import Portfolio from './pages/Portfolio/Portfolio';
+import Portfolio from './pages/portfolio/Portfolio';
 
 
 function App() {

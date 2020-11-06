@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+/* for project container - might not need this */
+.projectContainer {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}

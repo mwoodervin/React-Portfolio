@@ -1,3 +1,13 @@
 .container {
     flex-direction: row;
 }
+
+.portfolioContent {
+    order: 1;
+    background-color: lightblue;
+}
+
+.buttonStyle {
+    border-radius: 10%;
+    background-color: orange;
+}

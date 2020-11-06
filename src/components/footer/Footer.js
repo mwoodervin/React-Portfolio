@@ -5,7 +5,7 @@ import React from 'react';
 function Footer() {
 return (
     <div>
-        <footer className="footer mt-auto py-3">
+        <footer className="d-flex flex-column sticky-footer-wrapper">
             <div className="container">
                 <span className="text-muted">Mary W. Ervin | About Me | November 2020</span>
             </div>
