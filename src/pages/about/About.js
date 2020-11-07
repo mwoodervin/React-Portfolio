@@ -3,9 +3,9 @@ import React from 'react'
 export default function About() {
     return (
         <div>
-            <div class="row">
+            <div className="row">
                 <div className="col-lg-3">
-                    <img className="img img-thumbnail" src="./assets/ProfilePic.jpg" />
+                    <img className="img img-thumbnail" src="../img/ProfilePic.jpg" />
                     <button><a href="https://www.dropbox.com/s/o6cou9fcufy3opy/Mary%20Ervin%20Resume_August%202020.doc?dl=0">Link to full résumé</a></button>
                 </div>
                 <div className="col-lg-9 aboutStyle">
