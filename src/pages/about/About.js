@@ -18,7 +18,7 @@ export default function About() {
                 <div className="summaryDiv">
                     <p>I am an independent consultant specializing in small business development, management and systems improvement.</p>
 
-                    <p>I have a background in finance and am currently two-thirds of the way through a 6-month coding bootcamp, working toward a certificate in full-stack web development.
+                    <p>I have a background in finance and am completing a 6-month coding bootcamp, working toward a certificate in full-stack web development.
                             I am passionate about creating strong, healthy, and collaborative communities that function at a high level and focus around a set of values, product offerings, and/or innovative programs. </p>
 
                     <p>Areas of professional experience include: Strategic Planning and Organizational Analysis ▪ Project Management and Process Development ▪ Collaborative Problem Solving ▪ Leadership, Coaching, Team Building & Training ▪ Conflict Resolution & Consensus Building ▪ Performance Management ▪ Business Culture Development ▪ Innovative Program Development ▪ Presentations / Public Speaking  ▪  Budget Development   </p>
