@@ -6,9 +6,11 @@ export default function About() {
             <div className="row">
                 <div className="col-lg-3">
                     <img className="img img-thumbnail" src="../img/ProfilePic.jpg" />
-                    <button><a href="../docs/Mary Ervin Resume_October 2020.pdf">résumé</a></button>
-                    <button><a href="../docs/Mary Ervin Resume_October 2020.pdf">github</a></button>
-                    <button><a href="../docs/Mary Ervin Resume_October 2020.pdf">LinkedIn</a></button>
+                    <div className=" row buttonContainer">
+                    <button className="buttonStyle"><a href="../docs/Mary Ervin Resume_October 2020.pdf">résumé</a></button>
+                    <button className="buttonStyle"><a href="https://github.com/mwoodervin">github</a></button>
+                    <button className="buttonStyle"><a href="https://www.linkedin.com/in/mary-w-dempsey-ervin-b8a3b231/">LinkedIn</a></button>
+                    </div>
                 </div>
                 <div className="col-lg-9 aboutStyle">
                     <p>I am an independent consultant specializing in small business development, management and systems improvement.</p>
