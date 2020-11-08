@@ -25,7 +25,7 @@ export default function About() {
 
                     <p>I have served on several school and community boards and was a founding board member of Catamount Womenaid, a community-based organization dedicated to providing short-term grant funding for families in need.</p>
 
-                    <p>I graduated from Magna Cum Laude from Hamilton College and hold an MBA with a concentration in Finance from the University at Albany.  I am living in Stratham, NH with my two sons.
+                    <p>I graduated from Magna Cum Laude from Hamilton College and hold an MBA with a concentration in Finance from the University at Albany.  Currently living in Stratham, NH with my two sons.
                             My spare time is spent outdoors as much as possible!</p>
                 </div>
             </div>
