@@ -1,0 +1,18 @@
+.cardDeckStyle {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .cardStyle {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15%;
+    border: solid;
+    border-color: lightslategray;
+    width: 18rem;
+} */
+
+.buttonStyle {
+    padding: 10px;
+    margin: 10px;
+}
