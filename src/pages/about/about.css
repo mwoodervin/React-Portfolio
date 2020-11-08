@@ -1,11 +1,36 @@
-.buttonContainer {
+.containerDiv {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: red;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
+.graphicDiv {
+    margin: 20px;
+}
+.pictureDiv {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 15%;
+    /* flex-grow: 1; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.summaryDiv {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 85%;
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+
+.buttonDiv {
+    justify-content: center;
+}
 .buttonStyle {
     border-radius: 10%;
 }
+
