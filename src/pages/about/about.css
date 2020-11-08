@@ -1,10 +1,18 @@
 .containerDiv {
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
+}
+
+@media(max-width: 700px) {
+    .containerDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 }
 
 .graphicDiv {
+    padding: 10 px;
     margin: 20px;
 }
 .pictureDiv {
@@ -17,6 +25,7 @@
 }
 
 .summaryDiv {
+    padding: 10 px;
     margin: 20px;
     display: flex;
     flex-direction: row;
