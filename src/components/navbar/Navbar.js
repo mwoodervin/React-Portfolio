@@ -16,9 +16,6 @@ function Navbar() {
                             <Link className="nav-link linkStyle" to="/"> Home <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link linkStyle" to="/contact">Contact</Link>
-                        </li>
-                        <li className="nav-item">
                             <Link className="nav-link linkStyle" to="/portfolio">Portfolio</Link>
                         </li>
                     </ul>
