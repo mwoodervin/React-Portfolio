@@ -11,7 +11,6 @@ export const Project = () => {
         <div className="project-container">
             {projDetails.map((data, key) => {
                 return (
-                    <CardDeck>
                     <Card key={key} className="cardStyle">
                         <Card.Img variant="top" className='img-responsive' src={data.imgURL} alt={data.componentimgAlt} />
                         <Card.Body>
@@ -26,7 +25,6 @@ export const Project = () => {
                             <Button className="buttonStyle"><a href={data.codeLink} />Code</Button>
                         </Card.Footer>
                     </Card>
-                    </CardDeck>
                 );
             })}
         </div>
