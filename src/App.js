@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 // import react-bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,15 +12,18 @@ import Portfolio from './pages/portfolio/Portfolio';
 
 function App() {
   return (
+    <Router>
     <div>
-      <Router>
         <Hero/>
         <Navbar/>
+        <Switch>
         <Route exact path = "/" component = {About} />
         <Route exact path = "/portfolio" component = {Portfolio} />
+        </Switch>
         <Footer/>
-      </Router>
     </div>
+    </Router>
+    
   )
 }
 
