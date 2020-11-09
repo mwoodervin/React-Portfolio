@@ -13,22 +13,22 @@ import Portfolio from './pages/portfolio/Portfolio';
 function App() {
   return (
     <Router>
-    <div>
-        <Hero/>
-        <Navbar/>
+      <div>
+        <Hero />
+        <Navbar />
         <Switch>
-        <Route exact path = "/">
-          <About />
-          </Route> 
-        <Route exact path = "/portfolio">
-          <Portfolio />
-          </Route> 
+          <Route exact path="/">
+            <About />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
         </Switch>
-        <Footer/>
-    </div>
+        <Footer />
+      </div>
     </Router>
-    
-  )
+
+  );
 }
 
 export default App;
