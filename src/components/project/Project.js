@@ -10,31 +10,25 @@ import '../..//App.css';
 
 export const Project = () => {
     return (
-        <div>
-            <div className="project-container">
-                {projDetails.map((data, key) => {
-                    return (
-                        <div>
-                            <div className='containerStyle' key={key}>
-                                <Card className="cardStyle">
-                                    <Card.Img variant="top" className='img-responsive' src={data.imgURL} alt={data.componentimgAlt} />
-                                    <Card.Body>
-                                        <Card.Title>{data.title}</Card.Title>
-                                        <Card.Text>
-                                            <p>{data.description}</p>
-                                            <p>{data.tech}</p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                    <Card.Footer>
-                                        <Button className="buttonStyle"><a href={data.appLink} />Try me</Button>
-                                        <Button className="buttonStyle"><a href={data.codeLink} />Code</Button>
-                                    </Card.Footer>
-                                </Card>
-                            </div>
-                        </div>
-                    );
-                })}
-            </div>
+        <div className="project-container">
+            {projDetails.map((data, key) => {
+                return (
+                    <Card key={key} className="cardStyle">
+                        <Card.Img variant="top" className='img-responsive' src={data.imgURL} alt={data.componentimgAlt} />
+                        <Card.Body>
+                            <Card.Title>{data.title}</Card.Title>
+                            <Card.Text>
+                                <p>{data.description}</p>
+                                <p>{data.tech}</p>
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <Button className="buttonStyle"><a href={data.appLink} />Try me</Button>
+                            <Button className="buttonStyle"><a href={data.codeLink} />Code</Button>
+                        </Card.Footer>
+                    </Card>
+                );
+            })}
         </div>
     );
 }
