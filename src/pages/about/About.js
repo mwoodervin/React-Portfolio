@@ -7,10 +7,10 @@ export default function About() {
             <div className="containerDiv">
                 <div className="graphicDiv">
                     <div className="row pictureDiv">
-                        <img className="img img-thumbnail" src="../img/ProfilePic.jpg" alt="Mary W. Ervin"/>
+                        <img className="img img-thumbnail" src="./img/ProfilePic.jpg" alt="Mary W. Ervin"/>
                     </div>
                     <div className=" row buttonDiv">
-                        <button className="buttonStyle"><a href="../docs/Mary Ervin Resume_October 2020.pdf">résumé</a></button>
+                        <button className="buttonStyle"><a href="./docs/Mary Ervin Resume_October 2020.pdf">résumé</a></button>
                         <button className="buttonStyle"><a href="https://github.com/mwoodervin">github</a></button>
                         <button className="buttonStyle"><a href="https://www.linkedin.com/in/mary-w-dempsey-ervin-b8a3b231/">LinkedIn</a></button>
                     </div>
