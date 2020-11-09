@@ -1,13 +1,24 @@
-.containerStyle {
+.project-container {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 
 .cardStyle {
     margin: 10px;
+    border: solid;
+    border-color: lightslategrey;
 }
 
 .buttonStyle {
     padding: 10px;
     margin: 10px;
+    background-color: rgb(109, 130, 156);
+    font-size: .75rem;
+}
+
+@media (max-width: 700px) {
+    .project-container {
+        flex-direction: column;
+    }
 }
