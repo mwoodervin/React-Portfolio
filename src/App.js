@@ -17,10 +17,10 @@ function App() {
         <Hero />
         <Navbar />
         <Switch>
-          <Route exact path="/react-portfolio">
+          <Route exact path="/">
             <About />
           </Route>
-          <Route path="/react-portfolio/portfolio">
+          <Route path="/portfolio">
             <Portfolio />
           </Route>
         </Switch>

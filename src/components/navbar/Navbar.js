@@ -13,10 +13,10 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <Link className="nav-link linkStyle" to="/react-portfolio"> Home <span className="sr-only">(current)</span></Link>
+                            <Link className="nav-link linkStyle" to="/"> Home <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link linkStyle" to="/react-portfolio/portfolio">Portfolio</Link>
+                            <Link className="nav-link linkStyle" to="/portfolio">Portfolio</Link>
                         </li>
                     </ul>
                     <span className="navbar-text">
