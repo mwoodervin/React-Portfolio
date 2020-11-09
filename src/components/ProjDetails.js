@@ -5,7 +5,7 @@ export const projDetails = [
         "appLink": "https://the-team-builder.herokuapp.com/",
         "codeLink": "https://github.com/mwoodervin/the-team-builders",
         "tech": "Technologies: HTML, CSS, jQuery, MySWL, Sequelize, ExpressJS, Express Handlebars, Axios, Auth0",
-        "imgURL": "../../img/teambuildersscreenshot.png",
+        "imgURL": "./img/teambuildersscreenshot.png",
         "imgAlt": "Team Builder Logo",
         "component": "Project"
     },
@@ -16,7 +16,7 @@ export const projDetails = [
         "appLink": "https://mwoodervin.github.io/Flick-the-Deck/",
         "codeLink": "https://github.com/mwoodervin/Flick-the-Deck",
         "tech": "Technologies: HTML, CSS, JavaScript, JQuery",
-        "imgURL": "../../img/FlickTheDeck.png",
+        "imgURL": "./img/FlickTheDeck.png",
         "imgAlt": "Flick the Deck",
         "component": "Project"
     },
@@ -27,7 +27,7 @@ export const projDetails = [
         "appLink": "https://mwoodervin.github.io/Weather-Dashboard/",
         "codeLink": "https://github.com/mwoodervin/Weather-Dashboard",
         "tech": "Technologies: HTML, CSS, JavaScript, jQuery",
-        "imgURL": "../../img/WeatherDashboard.png",
+        "imgURL": "./img/WeatherDashboard.png",
         "imgAlt": "Weather Dashboard",
         "component": "Project"
     },
@@ -38,7 +38,7 @@ export const projDetails = [
         "appLink": "https://mwoodervin.github.io/Password-generator/",
         "codeLink": "https://github.com/mwoodervin/Password-generator",
         "tech": "Technologies: HTML, CSS, jQuery",
-        "imgURL": "../../img/Password.png",
+        "imgURL": "./img/Password.png",
         "imgAlt": "Password Generator",
         "component": "Project"
     },
@@ -49,7 +49,7 @@ export const projDetails = [
         "appLink": "https://mwoodervin.github.io/Day-Planner/",
         "codeLink": "https://github.com/mwoodervin/Day-Planner",
         "tech": "Technologies: HTML, CSS. jQuery",
-        "imgURL": "../../img/DayPlanner.png",
+        "imgURL": "./img/DayPlanner.png",
         "imgAlt": "Day Planner",
         "component": "Project"
     },
@@ -60,7 +60,7 @@ export const projDetails = [
         "appLink": "https://mighty-brook-63147.herokuapp.com/",
         "codeLink": "https://github.com/mwoodervin/Yum-Burger",
         "tech": "Technologies: HTML, CSS. jQuery",
-        "imgURL": "../../img/YumBurgers.png",
+        "imgURL": "./img/YumBurgers.png",
         "imgAlt": "Yum Burger",
         "component": "Project"
     },
