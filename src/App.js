@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Hero/>
         <Navbar/>
-        <Route exact path = {["/","/about"]} component = {About} />
+        <Route exact path = "/" component = {About} />
         <Route exact path = "/portfolio" component = {Portfolio} />
         <Footer/>
       </Router>
